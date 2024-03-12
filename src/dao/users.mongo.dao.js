@@ -17,16 +17,13 @@ export class UserService {
 
     async getUsersPaginated(page, limit) {
         try {
-            // Podemos usar el método paginate gracias a que hemos agregado el módulo mongoose-paginate-v2.
-            // También podríamos hacerlo manualmente, pero este módulo es muy cómodo y nos devuelve todos
-            // los datos necesarios en la respuesta para armar el paginado en el frontend.
-            // Por supuesto, los valores de offset y limit, pueden llegar como parámetros.
             return await userModel.paginate(
-                { gender: 'Female' },
-                { offset: (page * 50) - 50, limit: limit, lean: true }
-            )
+                {},
+                { offset: (page * limit) - limit, limit: limit, lean: true }
+            );
         } catch (err) {
-            return err.message
+            return err.message;
         }
     }
+    
 }

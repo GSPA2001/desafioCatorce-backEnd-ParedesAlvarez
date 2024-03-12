@@ -19,11 +19,11 @@ export class UserController {
 
     async getUsersPaginated(page, limit) {
         try {
-            return await service.getUsersPaginated()
+            return await service.getUsersPaginated(page, limit);
         } catch (err) {
-            return err.message
+            return err.message;
         }
-    }
+    }    
     
     async generateMockUsers(qty){
         const mockCarts = [];

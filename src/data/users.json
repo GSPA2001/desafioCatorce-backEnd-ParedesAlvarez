@@ -4,6 +4,7 @@
     "last_name": "Apellido",
     "email": "j@example.com",
     "age": 23,
+    "cart": "65f0d6b24637dec2bc7a0a3e",
     "password": "contraseña",
     "rol": "ADMIN"
   },
@@ -13,7 +14,7 @@
     "email": "adminCoder@coder.com",
     "age": 18,
     "password": "curso",
-    "cart":"65df0fc4b7dfbee91536be46",
+    "cart":"65f0d4ef4637dec2bc7a09b1",
     "rol": "ADMIN"
   },
   {
@@ -22,7 +23,7 @@
     "email": "digitalhouse@example.com",
     "age": 22,
     "password": "contraseña",
-    "rol": "user"
+    "rol": "premium"
   },
   {
     "first_name": "Marta",

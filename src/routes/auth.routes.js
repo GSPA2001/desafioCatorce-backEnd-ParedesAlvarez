@@ -143,7 +143,7 @@ router.get("/githubcallback",
 // router.get('/current', passportCall('jwtAuth', { session: false }), authorizationMid('admin'), async (req, res) => {
 router.get("/current",
   passportCall("jwtAuth", { session: false }),
-  handlePolicies(["user", "premium", "admin"]),
+  handlePolicies(["user", "premium", "ADMIN"]),
   async (req, res) => {
     res.status(200).send({ status: "OK", data: req.user });
   }

@@ -246,3 +246,5 @@ app.use((err, req, res, next) => {
 
   res.status(code).json({ error: errorMessage });
 });
+//Para el test
+export default app;
