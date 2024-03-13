@@ -39,6 +39,8 @@ Instalación:
 * npm install --save-dev mocha
 * npm install --save-dev supertest
 * Para visualización, en terminal: npm run start
+## Comandos para correr los test
+* Para el test npx mocha test/*.test.js
 
 ## Funcionamiento de los endpoints:
 * Al acceder a http://localhost:8080/api/products, se obtienen todos los productos.
