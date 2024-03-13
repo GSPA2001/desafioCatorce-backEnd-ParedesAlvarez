@@ -75,3 +75,15 @@
   label: 'production',
   timestamp: '2024-02-29T23:24:44.530Z'
 }
+{
+  message: 'Accediendo a la página de productos en tiempo real ⏱️..',
+  level: 'info',
+  label: 'production',
+  timestamp: '2024-03-12T23:49:16.429Z'
+}
+{
+  message: 'Accediendo a la página de productos en tiempo real ⏱️..',
+  level: 'info',
+  label: 'production',
+  timestamp: '2024-03-12T23:51:28.937Z'
+}

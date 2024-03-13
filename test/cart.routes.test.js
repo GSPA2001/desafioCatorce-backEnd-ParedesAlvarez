@@ -9,16 +9,17 @@ describe("Cart Router", () => {
 
   before(async () => {
     const newCart = new Cart({
-      products: ["65f0d5054637dec2bc7a09b4", "65f0d5054637dec2bc7a09b5"],
-      total: 12318.73,
+      products: ["65df0febb7dfbee91536be55", "65f0f068a8cf06892f010c40"],
+      total: 9431.5,
     });
     const savedCart = await newCart.save();
     cartId = savedCart._id;
   });
 
-  after(async () => {
-    await Cart.deleteMany({});
-  });
+  // comentado para evitar la eliminación de carritos total de mongo despues de cada prueba en cambio duplica el carrito no lo elimina
+  // afterEach(async () => {
+  //   await Cart.deleteMany({});
+  // });
 
   it("should return all carts with status code 200", async () => {
     const response = await request(app)
