@@ -25,9 +25,9 @@ export class ProductController {
 
     async getProduct(id) {
         try {
-            return await service.getProduct()
+            return await service.getProduct(id); // Pasar el ID como argumento
         } catch (err) {
-            return err.message
+            return err.message;
         }
     }
 

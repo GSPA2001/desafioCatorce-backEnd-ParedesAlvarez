@@ -86,4 +86,21 @@
   level: 'info',
   label: 'production',
   timestamp: '2024-03-12T23:51:28.937Z'
+}{
+  message: 'Accediendo a la página de productos en tiempo real ⏱️..',
+  level: 'info',
+  label: 'production',
+  timestamp: '2024-03-13T00:28:47.307Z'
+}
+{
+  message: 'Accediendo a la página de productos en tiempo real ⏱️..',
+  level: 'info',
+  label: 'production',
+  timestamp: '2024-03-13T00:29:16.792Z'
+}
+{
+  message: 'Accediendo a la página de productos en tiempo real ⏱️..',
+  level: 'info',
+  label: 'production',
+  timestamp: '2024-03-13T00:29:56.516Z'
 }
